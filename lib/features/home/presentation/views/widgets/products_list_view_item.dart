@@ -47,7 +47,7 @@ class ProductsListViewItem extends StatelessWidget {
                   Text(
                     product.title,
                     overflow: TextOverflow.ellipsis,
-                    maxLines: 2,
+                    maxLines: 1,
                   ),
                   const Divider(),
                   Text(
